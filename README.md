@@ -2,6 +2,8 @@
 
 > A feature-rich, dynamic forum inspired by YC Combinator, empowering startup owners with an interactive space to connect and share insights.
 
+<img src="https://github.com/khaledCSE/yc-directory/blob/main/public/cover.png?raw=true" />
+
 ## Overview
 
 YC Directory is a full-stack application, crafted as a simplified clone of the YC Combinator forum for startup owners. It offers essential functionalities like post creation, personal dashboards, and an Editor’s Pick section, all built with bleeding-edge technologies to ensure high performance and scalability.
@@ -23,15 +25,15 @@ A live demo of YC Directory can be accessed here: [YC Directory](https://yc-dire
 - Explored for flexible content management.
 - Code Quality: ESLint & SonarLint
 
-## Project Architecture
+<img src="https://github.com/khaledCSE/yc-directory/blob/main/public/tech-flow.jpg?raw=true" />
 
-(Include an architecture diagram to highlight your understanding of design patterns and flow.)
+## Project Architecture
 
 - Frontend: Built with Next.js and TypeScript, with parallel data fetching for efficient data handling.
 - Backend: Sanity CMS for structured content management.
 - Auth & Security: OAuth-based GitHub authentication.
 
-(Diagram suggestion: A layered architecture showing frontend, backend, and GitHub authentication interactions.)
+<img src="https://github.com/khaledCSE/yc-directory/blob/main/public/project-arch.jpg?raw=true" />
 
 ## Setup Guide
 
@@ -39,7 +41,6 @@ A live demo of YC Directory can be accessed here: [YC Directory](https://yc-dire
 - Install Dependencies: `npm install`
 - Environment Variables: Configure **GitHub OAuth** and **Sanity API** in `.env.local`.
 - Run Locally: `npm run dev`
-  (Include an image or flowchart here to simplify setup steps visually.)
 
 ### Example `.env.local`
 
